@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre Nosotros - FCNM</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #003366;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav {
+      background-color: #0059b3;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: background-color 0.3s, padding 0.3s;
+      padding: 6px 12px;
+      border-radius: 5px;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background-color: #66a3ff;
+      color: #003366;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-left: 8px solid #0073e6;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #004080;
+      margin-top: 0;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/logoizquierdo.png" alt="Logo Izquierdo" />
+    <h1>Facultad de Ciencias Naturales y Matemática</h1>
+    <img src="img/logoderecho.jpeg" alt="Logo Derecho" />
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="sobrenosotros.html" class="active">Sobre Nosotros</a>
+    <a href="carreras.html">Carreras</a>
+    <a href="avisos.html">Avisos</a>
+    <a href="calendario.html">Calendario Académico</a>
+    <a href="contactos.html">Contactos</a>
+  </nav>
+
+  <main>
+    <h2 style="text-align:center; color:#003366;">Sobre Nosotros</h2>
+
+    <div class="card">
+      <h3>Misión</h3>
+      <p>
+        Formar profesionales en las áreas de las ciencias naturales y matemática
+        con sólidos conocimientos científicos, técnicos, éticos y humanistas,
+        capaces de contribuir al desarrollo sostenible del país.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Visión</h3>
+      <p>
+        Ser una facultad líder a nivel nacional y regional en la formación de profesionales,
+        la investigación científica y la proyección social, comprometida con la excelencia académica.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Facultad de Ciencias Naturales y Matemática - Universidad de El Salvador
+  </footer>
+</body>
+</html>
